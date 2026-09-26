@@ -1,0 +1,3 @@
+{
+  "jobs": [{ "id": "sample-job", "startUtc": "2026-01-05T08:00:00Z", "endUtc": "2026-01-05T09:00:00Z", "dependsOn": [] }]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "schedule-window-validator",
+  "version": "0.1.0",
+  "description": "Check schedules against operating hours, holidays and dependency windows.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check src/index.mjs && node --check bin/schedule-window-validator.mjs",
+    "check": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edilec/schedule-window-validator"
+  }
+}
